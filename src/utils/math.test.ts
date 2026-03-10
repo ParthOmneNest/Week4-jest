@@ -32,7 +32,7 @@ describe ('Math utilities',()=>{
 
   describe('isEven()', () => {
     it('should return true for even numbers', () => {
-      expect(isEven(3)).toBe(true);
+      expect(isEven(2)).toBe(true);
     });
 
     it('should return false for odd numbers', () => {
