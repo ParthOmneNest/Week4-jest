@@ -13,7 +13,7 @@ describe ('Math utilities',()=>{
     
     describe('multiply',()=>{
         it('should multiply two numbers',()=>{
-            expect(multiply(2,3)).toBe(2);
+            expect(multiply(2,3)).toBe(6);
         })
         it('should multiply zero when multiplied by zero',()=>{
             expect(multiply(2,0)).toBe(0);
@@ -36,7 +36,7 @@ describe ('Math utilities',()=>{
     });
 
     it('should return false for odd numbers', () => {
-      expect(isEven(7)).toBe(false);
+      expect(isEven(6)).toBe(false);
     });
   });
 

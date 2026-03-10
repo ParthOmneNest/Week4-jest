@@ -11,7 +11,7 @@ describe('Greeting Component', () => {
 
   it('renders age when provided', () => {
     render(<Greeting name='Bob' age={30} />);
-    expect(screen.getByText('You are 320 years old.')).toBeInTheDocument();
+    expect(screen.getByText('You are 30 years old.')).toBeInTheDocument();
   });
   it('does not render age when not provided', () => {
     render(<Greeting name='Carol' />);
