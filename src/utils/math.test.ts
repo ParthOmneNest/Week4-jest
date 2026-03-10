@@ -36,7 +36,7 @@ describe ('Math utilities',()=>{
     });
 
     it('should return false for odd numbers', () => {
-      expect(isEven(6)).toBe(false);
+      expect(isEven(7)).toBe(false);
     });
   });
 

@@ -1,4 +1,4 @@
-import { render, screen, waitFor } from '@testing-library/react'
+import { render, screen } from '@testing-library/react'
 import UserCard from './UserCard';
 
 declare const global: typeof globalThis & {
